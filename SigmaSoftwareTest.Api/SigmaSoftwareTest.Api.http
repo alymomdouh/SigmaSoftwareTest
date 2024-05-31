@@ -1,0 +1,6 @@
+@SigmaSoftwareTest.Api_HostAddress = http://localhost:5250
+
+GET {{SigmaSoftwareTest.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
