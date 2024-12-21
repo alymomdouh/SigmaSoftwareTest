@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Iservices\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SigmaSoftwareTest.Common\SigmaSoftwareTest.Common.csproj" />
+    <ProjectReference Include="..\SigmaSoftwareTest.Core\SigmaSoftwareTest.Core.csproj" />
+  </ItemGroup>
+
 </Project>

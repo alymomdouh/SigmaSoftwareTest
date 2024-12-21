@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SigmaSoftwareTest.Application\SigmaSoftwareTest.Application.csproj" />
+    <ProjectReference Include="..\SigmaSoftwareTest.Core\SigmaSoftwareTest.Core.csproj" />
+  </ItemGroup>
+
 </Project>
